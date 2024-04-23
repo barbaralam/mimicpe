@@ -2,7 +2,9 @@ data/
 
 *.out
 
+
 .ipynb_checkpoints/
 
 
 results
+__pycache__/
