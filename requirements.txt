@@ -7,3 +7,4 @@ accelerate
 pandas
 numpy
 scikit-learn
+wfdb
