@@ -2,8 +2,8 @@
 #SBATCH --job-name=jpt_a6000
 #SBATCH --time=1000-00:00:00
 #SBATCH --partition=A6000
-#SBATCH --gres=gpu:2
-#SBATCH --nodelist=chili
+#SBATCH --gres=gpu:1
+#SBATCH --nodelist=rosemary
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=50GB
 #SBATCH --output=/data/vision/polina/scratch/wpq/github/cxrpe/scripts/jpt_a6000.out
