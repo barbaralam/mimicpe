@@ -1,10 +1,24 @@
-torch
-torchvision
-transformers
-datasets
-evaluate
-accelerate
+# torch # installed in Makefile
+# torchvision # installed in Makefile
 pandas
 numpy
 scikit-learn
 wfdb
+scipy
+matplotlib
+omegaconf
+pydicom # reading dicom 
+pylibjpeg # dependency of pydicom
+pylibjpeg-libjpeg # dependency of pydicom
+transformers
+accelerate
+datasets
+evaluate
+# flash-attn==2.5.8
+vllm==0.4.1
+sentencepiece
+protobuf
+shortuuid
+names-dataset
+bitsandbytes
+Jinja2
